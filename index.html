@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Suma mas cercana</title>
+</head>
+<body>
+    <div class="container-array">
+        <label for="arraySize">Espacios a Ocupar</label>
+        <input type="text" id="arraySize" placeholder="Ej: 5">
+        <p class="errorArray" id="messageError1"></p>
+        <button id="btnArray">Crear Espacios</button>
+    </div>
+    <div class="container-numGoal">
+        <label for="numToGoal">Introduce un numero Objetivo</label>
+        <input type="text" id="numToGoal" placeholder="Ej: 10">
+        <button id="addNum">Agregar numero</button>
+        <p id="messageError2"></p>
+    </div>
+    <div class="container-numbers">
+        <label for="numbers">Introduce un numero</label>
+        <input type="text" id="numbers" placeholder="Ej: 5 - 4 - 3">
+        <p id="messageError3"></p>
+        <button id="addNumber">Agregar</button>
+    </div>
+    <div class="container-results">
+        <p class="outR" id="out"></p>
+        <p class="numObj" id="numObj"></p>
+    </div>
+    <div class="container-numObj">
+        <button id="initSum">Iniciar Sumas</button>
+        <p id="resultContainer"></p>
+    </div>
+    <script type="module" src="/src/index.js"></script>
+</body>
+</html>
